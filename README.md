@@ -66,13 +66,4 @@ While building this project, I practiced:
 - `cursor: pointer`
 - HTML entities
 
-## Project Structure
 
-```text
-project-folder/
-│
-├── index.html
-└── README.md
-## Preview
-
-![Project Preview](preview.png)
