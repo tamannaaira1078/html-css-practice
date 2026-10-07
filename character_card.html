@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Character Card</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: Arial, sans-serif;
+        background-color: #10111a;
+        color: #f5f7ff;
+      }
+
+      .character-card {
+        width: 320px;
+        max-width: 100%;
+        margin: 24px auto;
+        padding: 20px;
+        background-color: #1b1e2c;
+        border: 1px solid #363a50;
+        border-radius: 16px;
+      }
+
+      .character-image {
+        display: block;
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .character-name {
+        margin: 16px 0 10px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #f5f7ff;
+      }
+
+      .character-highlight {
+        color: #9aabff;
+      }
+
+      .character-description {
+        margin: 0 0 18px;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #c1c7da;
+      }
+
+      .search-label {
+        display: block;
+        margin: 0 0 8px;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .search-box {
+        display: block;
+        width: 100%;
+        margin: 0 0 12px;
+        padding: 10px 12px;
+        font-family: inherit;
+        font-size: 14px;
+        color: #f5f7ff;
+        background-color: #111521;
+        border: 1px solid #626b89;
+        border-radius: 8px;
+      }
+
+      .search-box::placeholder {
+        color: #aab2c7;
+      }
+
+      .view-button {
+        display: block;
+        width: 100%;
+        padding: 11px 16px;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 700;
+        color: #141829;
+        background-color: #9aabff;
+        border: 1px solid #9aabff;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .view-button:hover {
+        background-color: #c4ceff;
+      }
+
+      .search-box:focus-visible,
+      .view-button:focus-visible {
+        outline: 2px solid #c4ceff;
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="character-card">
+      <img
+        class="character-image"
+        src="images1.jpg"
+        alt="Satoru Gojo from Jujutsu Kaisen"
+      >
+
+      <h1 class="character-name">
+        Satoru <span class="character-highlight">Gojo</span>
+      </h1>
+
+      <p class="character-description">
+        A confident sorcerer with a playful attitude and extraordinary power.
+      </p>
+
+      <label class="search-label" for="character-search">
+        Search characters
+      </label>
+
+      <input
+        class="search-box"
+        id="character-search"
+        type="search"
+        placeholder="Enter a character name"
+      >
+
+      <button class="view-button" type="button">
+        View character
+      </button>
+    </main>
+  </body>
+</html>

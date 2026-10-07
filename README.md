@@ -112,6 +112,55 @@ A small HTML and CSS practice project built to practice working with images and 
 ![Image and Search Project](image+search.png)
 
 ---
+### 4. Mini Character Card + Search
+
+A Jujutsu Kaisen-inspired character card built with HTML and CSS to practice combining images, typography, input fields, and button styling.
+
+#### Features
+
+- Character image, name, and short description
+- Highlighted text using a `<span>` element
+- Search input with a label and placeholder text
+- View character button
+- Button background-color change on hover
+- Smooth hover transition
+- Rounded borders and consistent spacing
+- Visible keyboard focus outlines
+- Card width that adapts to smaller screens
+
+#### Concepts Practiced
+
+- Meaningful CSS class names
+- `width` and `max-width`
+- `box-sizing: border-box`
+- `font-size` and `font-weight`
+- `color` and `line-height`
+- `margin` and `padding`
+- `border` and `border-radius`
+- `cursor: pointer`
+- `:hover` and `transition`
+- Image sizing with `object-fit: cover`
+- `<img>`, `<span>`, `<label>`, `<input>`, and `<button>` elements
+
+#### Preview
+
+![Image and Search Project](card.png)
+
+#### How to Run
+
+1. Download or clone this repository.
+2. Keep `character-card.html` and `images1.jpg` in the same folder.
+3. Open `character-card.html` in a web browser.
+
+No packages or build tools are required.
+
+#### Current Functionality
+
+This project focuses on HTML structure and CSS styling.
+
+The search input accepts text, but character filtering and the View character button's action have not been implemented yet. These features will require JavaScript.
+
+---
 
 ## Current Status
 
