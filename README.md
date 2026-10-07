@@ -144,7 +144,7 @@ A Jujutsu Kaisen-inspired character card built with HTML and CSS to practice com
 
 #### Preview
 
-![Image and Search Project](card.png)
+![Image and Search Project](ccard.png)
 
 #### How to Run
 
