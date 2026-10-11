@@ -162,6 +162,58 @@ The search input accepts text, but character filtering and the View character bu
 
 ---
 
+#  Course Preview Card
+
+A simple course preview card built using **HTML5 and CSS3** as part of my frontend development practice.
+
+## Features
+
+- Course thumbnail image
+- Circular channel profile picture
+- Course title, author, and view information
+- Side-by-side layout using `inline-block`
+- Custom typography and spacing
+- Image sizing and vertical alignment
+
+## 🛠️Technologies Used
+
+- HTML5
+- CSS3
+
+##  What I Learned
+
+- Structuring HTML using nested `<div>` elements
+- Understanding parent-child relationships
+- Working with `display: block` and `display: inline-block`
+- Controlling image sizes using `width: 100%`
+- Aligning elements with `vertical-align: top`
+- Managing margins and spacing
+- Grouping CSS selectors
+- Debugging layout and image-sizing issues
+
+##  How to Run
+
+1. Clone or download the repository.
+2. Open the project folder in VS Code.
+3. Open the HTML file in your browser.
+
+No additional dependencies are required.
+
+##  Future Improvements
+
+- Add responsive design
+- Explore Flexbox and CSS Grid
+- Improve visual styling and hover effects
+
+##  Project Goal
+
+The goal of this project was to strengthen my HTML and CSS fundamentals through hands-on practice, with a focus on understanding layouts and developing independent debugging skills.
+
+#### Preview
+
+![Image and Search Project](channel-preview.png)
+
+
 ## Current Status
 
 🚧 **Actively learning and updating**
