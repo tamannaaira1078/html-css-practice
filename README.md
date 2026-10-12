@@ -214,6 +214,62 @@ The goal of this project was to strengthen my HTML and CSS fundamentals through 
 ![Image and Search Project](channel-preview.png)
 
 
+# Profile Card | HTML & CSS
+
+A simple developer profile card built with HTML5 and CSS3 as part of my web development practice.
+
+## 📌 About the Project
+
+This project focuses on building a clean profile card layout using basic HTML and CSS, without Flexbox or Grid.
+
+The card displays a profile picture, name, job title, location, and a styled Follow button.
+
+## ✨ Features
+
+- Dark-themed profile card
+- Profile picture with fixed dimensions
+- Name, job title, and location
+- Styled Follow button
+- Side-by-side layout using `inline-block`
+- Spacing and alignment using the CSS box model
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+
+## 🧠 What I Learned
+
+- Structuring HTML with nested `div` elements
+- Using `display: inline-block` for layouts
+- Aligning elements with `vertical-align: top`
+- Understanding padding, margins, and borders
+- Using `box-sizing: border-box`
+- Debugging element overflow and wrapping
+- Organizing CSS with reusable class names
+
+## 🚀 How to Run
+
+1. Download or clone the repository.
+2. Open the project folder in VS Code.
+3. Open the HTML file in a web browser.
+
+No additional installation is required.
+
+## 🔮 Future Improvements
+
+- Add responsive design
+- Add hover effects and transitions
+- Improve accessibility
+- Add JavaScript functionality to the Follow button
+
+## 🎯 Purpose
+
+This project is part of my journey to strengthen my frontend development fundamentals through independent coding practice.
+#### Preview
+
+![Image and Search Project](ID-card.png)
+
 ## Current Status
 
 🚧 **Actively learning and updating**
